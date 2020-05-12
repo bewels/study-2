@@ -1,0 +1,69 @@
+body {
+margin: 0;
+font-family: 'Baloo Tamma 2', cursive;
+font-size: 16px;
+color: #C33162;
+line-height: 1.5;
+}
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/intro.jpg") center, no-repeat;
+  -webkit-background-size: cover; 
+}
+.i__inner {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+ 
+}
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 160px;
+  font-weight: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #BC8AE9;
+}
+.box {
+
+	width: 100%;
+    max-width: 1200px;
+	margin: 0 auto; 
+}
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+.header {
+ position: absolute;
+ width: 100%;
+ top: 0;
+ right: 0;
+ left: 0;
+ padding-top: 44px;
+}
+.logo {
+color:#F395E3;
+font-size: 30px;
+margin: 0;
+}
+nav {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.link {
+text-decoration: none;
+color: #C33162 ;
+transition: color .3s linear;
+}
+.link:hover {
+     color:#411021;
+
+}
+.inner {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
